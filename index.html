@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EveryBuy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Federant&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-M9dH/j0MceN4fF1JkSmdr2VfnJQYv9mtuY7Drx2Soj0Sk9xT1JjE/9y31oYI7A1J6A3fFF7U3x1UHwX5olhQeA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  
+  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <div class="container-fluid">
+
+        <h1 class="txt text-danger"><img class="logo-loom" src="lomk logo.png" alt="">EveryBuy</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                
+            <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-house-user"></i>Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html" target="_blank"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-phone-flip" ></i>Contact Us </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="signup.html" target="_blank">Sign up</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html" target="_blank">Sign in</a>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+  </nav>
+
+  
+</header>
+      
+<main>
+
+  <details >
+    <summary style="list-style: none; -webkit-appearance: none; appearance: none; cursor: pointer;">
+      <img class="cart-img" src="shopping-cart-logo-or-icon-design-vector-removebg-preview.png" alt="">
+    </summary>
+    <div class="cart-section bg-dark  ">
+  
+      <h3 class="d-flex justify-content-center ">Add To cart</h3>
+      
+      <div id="cart-container" class="cart-container">
+        <div id="cart-items" class=" row cart-items d-flex justify-content-center"></div>
+        <p class="d-flex justify-content-center" style="color: antiquewhite;">---------------------------------------------</p>
+        <div id="total-price" class="total-price d-flex justify-content-center"></div>
+      </div>
+    </div>
+  </details>
+  <section class="row d-flex justify-content-center mt-5 mb-5 " id="product-cont">
+    
+
+    
+  </section>
+</main>
+
+<!-- Footer Section -->
+<a href="#"><button class="back-to_top">back to top</button></a>
+<footer class="bg-dark text-light pt-5 pb-3">
+
+  <div class="container">
+    <div class="row">
+
+      <!-- Brand -->
+      <div class="col-md-3 mb-4">
+        <h1 class="txt text-danger "><img class="logo-loom" src="lomk logo.png" alt=""> EveryBuy</h2>
+        <p class="text-muted">Wear Your Confidence</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="col-md-3 mb-4">
+        <h5 class="text-warning">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Shop</a></li>
+          <li><a href="#" class="text-light text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Customer Service -->
+      <div class="col-md-3 mb-4">
+        <h5 class="text-warning">Customer Service</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-light text-decoration-none">FAQs</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Shipping</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Returns</a></li>
+          <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-3 mb-4">
+        <h5 class="text-warning">Follow Us</h5>
+        <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
+        <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i> Instagram</a><br>
+        <a href="#" class="text-light"><i class="bi bi-twitter"></i> Twitter</a>
+      </div>
+
+    </div>
+
+    <!-- Bottom -->
+    <div class="text-center mt-4 border-top pt-3">
+      <p class="mb-0 text-muted">© 2025 LoomVipe. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+     
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+  
+</body>
+</html>

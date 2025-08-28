@@ -1,0 +1,66 @@
+.logo {
+    border-radius: 150px;
+    width: 80px;
+}
+
+.logo-loom {
+    border-radius: 100px;
+    width: 50px;
+}
+
+.txt {
+    font-family: "Federant", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.text {
+    text-align: center;
+    color: aliceblue;
+}
+
+.ftr {
+    margin-top: 130px;
+}
+
+.back-to_top {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(55, 54, 54);
+    color: wheat;
+
+}
+
+.back-to_top:hover {
+    cursor: pointer;
+    background-color: rgb(106, 101, 101);
+
+
+}
+
+.back-to_top:active {
+    background-color: rgb(55, 54, 54);
+
+
+}
+.card{
+    box-shadow: 4px 4px 8px gray;
+}
+.card-img {
+    height: 250px;
+}
+
+.cart-section {
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+    width: 99%;
+    text-align: center;
+    margin-left: 10px;
+}
+.cart-img{
+    width: 100px;
+}
