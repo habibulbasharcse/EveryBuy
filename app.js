@@ -19,7 +19,7 @@ const displayProducts = (products) => {
             <img src="${product.image}" class="card-img-top card-img" alt="${product.title}">
             <div class="card-body text-center">
                 <h5 class="card-title">${product.title}</h5>
-                p class="fw-bold text-danger fs-4">$${product.price}</p>
+                <p class="fw-bold text-danger fs-4">$${product.price}</p>
             
                 <details>
                     <summary>Details</summary>
